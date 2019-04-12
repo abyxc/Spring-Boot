@@ -15,8 +15,6 @@
 	<description>初始化项目</description>
 
 
-
-
 	<build>
 		<plugins>
 			<plugin>

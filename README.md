@@ -1,4 +1,3 @@
 
 
-initialize
-    初始化项目
+initialize: 一个简单的RESTful API

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.demo.jdbc.dao.UserDao">
+
+    <insert id="add" parameterType="com.demo.jdbc.model.User">
+        insert into user ( id,age,phone,address,pass_word,name,create_time,updata_time) values (#{id},#{age},#{phone},#{address},#{passWord},#{name},#{createTime},#{updataTime})
+    </insert>
+
+
+
+</mapper>

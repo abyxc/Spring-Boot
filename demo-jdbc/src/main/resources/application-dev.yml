@@ -1,0 +1,7 @@
+spring:
+  #    数据库配置
+  datasource:
+    url: jdbc:mysql://192.168.0.9:3306/demo?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true
+    username: trzc
+    password: TrGood,!123
+    driver-class-name: com.mysql.jdbc.Driver

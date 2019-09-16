@@ -36,5 +36,6 @@
         <module>demo-jdbc</module>
         <module>api</module>
         <module>demo-api</module>
+        <module>demo-groovy</module>
     </modules>
 </project>
